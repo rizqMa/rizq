@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: calibri, segoe ui, arial, tahoma, sans-serif;
+}
+
+
+body {
+	background-color: #DDDDDD;
+}
+
+#wrapper {
+	width: 780px;
+	margin: 0 auto;
+}
+
+
+#header {
+	background: url(images/header.jpg) repeat-x #555;
+	height: 90px;
+	width: 100%;
+	padding: 5px;
+	margin: 20px 0;
+	overflow: hidden;
+}
+
+
+#header img{width: 100px; height: 35px; 
+			}
+
+ul, li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul.menu-utama li{
+	display: inline-block;
+	background: #e1e1e1;
+	color: #777;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 15px;
+	text-align: center;
+}
+ul.menu-utama li:hover{
+	background: #333;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+ul.submenu{
+	display: none; 
+}
+
+ul.menu-utama li:hover ul.submenu{
+	display: block;
+	position: absolute;
+}
+
+ul.submenu{
+	margin-left: -15px;
+}
+
+ul.submenu li{
+	display: block;
+}
+
+#header form{
+	float: right;
+	margin-top: -25px;
+	margin-right: 10px;
+}
+#hearder form input {
+	margin-right: 7px;
+	border: none;
+	height: 20px;
+
+}
+
+#daftar-artikel{
+	width: 470px;
+	float: left;
+}
+#daftar-artikel{
+	width: 470px;
+	float: left;
+}
+.artikel {
+	background: #ffffff;
+	padding: 10px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.artikel img{
+	float: left;
+	margin-right: 10px;
+	width: 200px;
+	height: 165px
+}
+
+.artikel b{
+	color: #616060;
+	background: #DDDDDD;
+	padding: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 10px;
+
+}
+.artikel p {
+	margin: 10px 0;
+}
+.artikel a{
+	display: block;
+	text-align: right;
+	color: #636363;
+
+}
+#sidebar{
+	width: 270px;
+	float: right;
+	background: #DDDDDD;
+	background-color: #
+
+}
+#sidebar h2 {
+	font-size: 18px;
+	margin: 10px 0;
+	background-color: #fff;
+
+}
+
+#sidebar p{
+	line-height: 20px;
+	color: #636363;
+
+
+}
+#sidebar ul{
+	margin-left: 30px;
+
+}
+#sidebar ul li a{
+	color: #636363;
+	text-decoration: none;
+
+}
+
+
+#footer {
+	clear: both;
+	margin: 20px 0;
+	text-align: center;
+	background-color:#f0f0f0;
+	padding:5px;
+	color:#555555; 
+}
+
